@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/masterstyle.css">
+    <script src="/js/problema1_psc.js"></script>
+    <title>problema1psc</title>
+</head>
+<body>
+    <header class="inicio"><a href="index.html">INICIO</a></header>
+
+    <h1 class="titulo">PROBLEMA 1</h1>
+    <p class="problemas">Leer 2 números; si son iguales que los multiplique, si el primero 
+        es mayor que el segundo que los reste y si no que los sume
+
+        <form method="post" name="formulario">
+            <table class="tabla_1" align="center" border="4" name="tabla">
+                <tr>
+                    <td class="estilo_letra">Por favor ingresa el primer número: </td>
+                    <td class="estilo_letra"><input class="estilo_button" type="text" name="numero1" onkeypress="return validarn(event)"> </td>
+                </tr>
+                <tr>
+                    <td class="estilo_letra">Por favor ingresa el segundo número: </td>
+                    <td class="estilo_letra"><input class="estilo_button" type="text" name="numero2" onkeypress="return validarn(event)"></td>
+                </tr>
+                    <tr>
+                        <td class="estilo_letra">Resultado:</td>
+                        <td class="estilo_letra"> <input class="estilo_button" type="text" name="resultado" id="cantidadi" readonly="readonly" class="input_text">  </td>
+                    </tr>
+                    <tr>
+                        <td class="estilo_letra"></td>
+                        <td class="estilo_letra">
+                            <input class="estilo_button" type="button" value="Calcular" name="enviar" onclick="calculo()"> 
+                            <input class="estilo_button"type="button" value="Borrar" name="reset" onclick="borrar()">
+                        </td>
+                    </tr>
+            </table>    
+        </form>
+    </p>
+</body>
+</html>

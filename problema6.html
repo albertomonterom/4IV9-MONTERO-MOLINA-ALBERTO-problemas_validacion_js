@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/masterstyle.css">
+    <script src="/js/problema6.js"></script>
+    <title>problema6</title>
+</head>
+<body>
+    <header class="inicio"><a href="index.html">INICIO</a></header>
+
+    <h1 class="titulo">PROBLEMA 6</h1>
+    <p class="prolemas">Realizar un algoritmo que calcule la edad de una persona</p>
+
+    <form method="POST" name="formulario">
+        <table class="tabla_1" align="center" border="4" name="tabla">
+            <tr>
+                <td class="estilo_letra">Por favor ingrese su año de nacimiento: </td>
+                <td class="estilo_letra"><input class="estilo_button" type="text" name="ana" id="nacimiento"
+                     onkeypress="return validarn(event)"></td>
+            </tr>
+            <tr>
+                <td class="estilo_letra">Ingrese el año actual:</td>
+                <td class="estilo_letra"><input class="estilo_button" type="text" name="anact" id="actual" onkeypress="return validarn(event)"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="estilo_letra"><input class="estilo_button" type="button" value="Calcular" name="enviar" onclick="interes()"></td>
+            </tr>
+            <tr>
+                <td class="estilo_letra">Edad: </td>
+                <td><input class="estilo_button" type="text" name="edto"
+                     id="edad" readonly="readonly"
+                      class="input_text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input class="estilo_button" type="button" value="Borrar"
+                     name="reset" onclick="borrar()"></td>
+            </tr>
+        </table>
+        <br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/masterstyle.css">
+    <script src="/js/problema5.js"></script>
+    <title>problema5</title>
+</head>
+<body>
+    <header class="inicio"><a href="index.html">INICIO</a></header>
+
+    <h1 class="titulo">PROBLEMA 5</h1>
+    <p class="problemas">Un maestro desea saber que porcentaje de hombres y que porcentaje
+        de mujeres hay en un grupo de estudiantes
+
+        <form name="problema5" method="GET" action="problema5.html">
+            <table class="tabla_1" align="center" border="4" name="tabla">
+                <tr>
+                    <td class= "estilo_letra">Por favor ingrese el número total de estudiantes: </td>
+                    <td class= "estilo_letra"><input  class="estilo_button" type="text" name="numestud" 
+                        onkeypress="return validarn(event)"></td>
+                </tr>
+                <tr>
+                    <td class= "estilo_letra">Por favor ingrese el número de hombres que hay en su grupo:</td>
+                    <td class= "estilo_letra"><input class="estilo_button" type="text" name="numhomb"
+                        onkeypress="return validarn(event)"></td>
+                </tr>
+                <tr>
+                    <td class= "estilo_letra">Por favor ingrese el número de mujeres que hay en su grupo:</td>
+                    <td class= "estilo_letra"><input class="estilo_button" type="text" name="nummuj"
+                        onkeypress="return validarn(event)"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class= "estilo_letra"><input class="estilo_button" type="button" value="Calcular" 
+                        name="enviar" onclick="porcentajes()"></td>
+                </tr>
+                <tr>
+                    <td class= "estilo_letra">Porcentaje de hombres en el grupo:</td>
+                    <td class= "estilo_letra"><input class="estilo_button" type="text" name="porcehom" id="porcentah"
+                        readonly="readonly" class="input_text"> </td>
+                </tr>
+                <tr>
+                    <td class= "estilo_letra">Porcentaje de mujeres en el grupo:</td>
+                    <td class= "estilo_letra"><input class="estilo_button" type="text" name="porcemuj" id="porcentam"
+                        readonly="readonly" class="input_text"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class= "estilo_letra"><input class="estilo_button" type="button" name="borrarr"
+                        value="Borrar" onclick="borrar()"></td>
+                </tr>
+            </table>
+        </form>
+    </p>
+</body>
+</html>

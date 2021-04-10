@@ -1,0 +1,150 @@
+html, body {
+    /*color de fondo*/
+    background-color: #212529;
+}
+
+.titulo {
+    /*font family: estamos especificando la familia de la fuente*/
+    font-family: 'Dela Gothic One', cursive;
+    /*font-size: tamaño de la fuente*/
+    font-size: medium;
+    /*text-align: alineacion del texto*/
+    text-align: center;
+    /*margin--> margem*/
+    margin: 2rem;
+    /*padding--> relleno*/
+    padding: 1rem;
+    /*background-color: color del fondo*/
+    background-color: #ced4da;
+    /*border-radius: radio del borde*/
+    border-radius: 60px;
+    border: 8px solid #6c757d
+
+}
+span{
+    font-size: 30px;
+}
+
+.main-container{
+    color: #f8f9fa;
+    display: inline-block;
+}
+
+a{
+    color: #f8f9fa;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 25px;
+    margin: 1rem;
+}
+
+p{
+    color: #dee2e6;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.subtitulos{
+    text-align: left;
+    font-size: 27px;
+    color: #ced4da;
+    margin-left: 10rem;
+}
+
+ul{
+    margin-left: 15rem;
+}
+
+.subtitulos2{
+    /*font-family: familia tipográfica*/
+    font-family: 'Dela Gothic One', cursive;
+    /*font-size: tamaño de fuente*/
+    font-size: 27px;
+    color: #ced4da;
+    /*padding-top--> relleno de arriba*/
+    padding-top: 1rem;
+    padding-left: 14rem;
+}
+
+.main-container2{
+    color: #f8f9fa;
+    /*display: inline*block--> mostrar cajas en línea*/
+    display: inline-block;
+}
+
+.left{
+    /*margin-left--> margen izquierdo*/
+    margin-left: 40rem;
+    /*margin-top--> margen de arriba*/
+    margin-top: 1rem;
+}
+
+section{
+    /*display: inline-block--> mostrar cajas en línea*/
+    display: inline-block;
+    /*width:#--> ancho*/
+    width: 40%;
+    /*height: altura*/
+}
+
+footer{
+    /*padding-top--> relleno de arriba*/
+    padding-top: 7rem;
+}
+
+aside, article{
+    /*Una caja de tipo inline-block se comporta como si fuera de bloque, pero respecto a los elementos que la rodean es una caja en línea.*/
+    display: inline-block;
+    /*display: mostrar*/
+}
+
+.lista{
+    /*padding-left: releno de la derecha*/
+    padding-left: 6rem;
+}
+
+.inicio{
+    /*font-family: familia tipográfica*/
+    font-family: 'Dela Gothic One', cursive;
+    border: 5px solid #6c757d;
+    width: 8%;
+}
+
+.problemas{
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+
+.lista_js{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 20px;
+    color: #ced4da;
+}
+
+.lista_p4{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 20px;
+    color: #ced4da;
+    text-align: center;
+}
+
+.lista_p4_js{
+    margin-right: 10rem;
+}
+
+.estilo_letra{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 20px;
+}
+
+.estilo_button{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 15px;
+}
+
+.tabla_1{
+    margin-top: 5rem;
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+

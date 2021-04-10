@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/masterstyle.css">
+    <script src="/js/problema2.js"></script>
+    <title>problema2</title>
+</head>
+<body>
+    <header class="inicio"><a href="index.html">INICIO</a></header>
+
+    <h1 class="titulo">PROBLEMA 2</h1>
+    <p class="problemas">Un vendedor recibe un sueldo base mas un 10% extra por comision
+        de sus ventas, el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones
+        por las tres ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta
+        su sueldo base y comisiones
+
+        <form method="GET" name="formulario">
+            <table class="tabla_1" align="center" border="4">
+                <tr>
+                    <td class="estilo_letra">Favor de ingresar su sueldo base: $</td>
+                    <td class="estilo_letra"><input  class="estilo_button" type="text" name="sueldoB" onkeypress="return validarn(event)"></td>
+                </tr>
+                <tr>
+                    <td class="estilo_letra">1° venta</td>
+                    <td class="estilo_letra"><input  class="estilo_button" type="text" name="V1" onkeypress="return validarn(event)"></td>
+                </tr>
+                <tr>
+                    <td class="estilo_letra">2° venta</td>
+                    <td class="estilo_letra"><input  class="estilo_button" type="text" name="V2" onkeypress="return validarn(event)"></td>
+                </tr>
+                <tr>
+                    <td class="estilo_letra">3° venta</td>
+                    <td class="estilo_letra"><input  class="estilo_button" type="text" name="V3" onkeypress="return validarn(event)"></td>
+                </tr>
+                <tr>
+                    <td class="estilo_letra"></td>
+                    <td class="estilo_letra">
+                        <input class="estilo_button" type="button" value="Calcular" name="enviar" onclick="return mostrar(event)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="estilo_letra">Ganancia venta 1: $</td>
+                    <td class="estilo_letra"><input  class="estilo_button" type="text" name="cantidadventas1" id="cantidadventas1" readonly="readonly"
+                            class="input_text"></td>
+                </tr>
+                <tr>
+                    <td class="estilo_letra">Ganancia venta 2: $</td>
+                    <td class="estilo_letra"><input  class="estilo_button" type="text" name="cantidadventas2" id="cantidadventas2" readonly="readonly"
+                            class="input_text"></td>
+                </tr>
+                <tr>
+                    <td class="estilo_letra">Ganancia venta 3: $</td>
+                    <td class="estilo_letra"><input  class="estilo_button" type="text" name="cantidadventas3" id="cantidadventas3" readonly="readonly"
+                            class="input_text"></td>
+                </tr>
+                <tr>
+                    <td class="estilo_letra">Total: $</td>
+                    <td class="estilo_letra"><input  class="estilo_button" type="text" name="totS" id="totS" readonly="readonly"
+                            class="input_text"></td>
+                </tr>
+                <tr>
+                    <td class="estilo_letra"></td>
+                    <td class="estilo_letra"><input class="estilo_button" type="button" name="borrard" value="Borrar" onclick="borrar()"></td>
+                </tr>
+            </table>
+        </form>
+    </p>
+</body>
+</html>
