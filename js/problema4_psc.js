@@ -30,8 +30,7 @@ function calculo(){
                         var utilidad = valor_a * 0.20;
                     }
                 }
-            }
-            
+            }      
         }
     }
 
